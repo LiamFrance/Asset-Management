@@ -1,0 +1,13 @@
+.Modal__style .repassword__content .repassword__input .ant-form-item-explain.ant-form-item-explain-error {
+    width: 20rem;
+    color: #FD4D4F;
+    font-size: 1.2rem;
+}
+
+.Modal__style .repassword__content .repassword__input .ant-form-item-control {
+    margin-right: 47px;
+}
+
+.Modal__style .repassword__content .repassword__input .ant-row.ant-form-item.ant-form-item-has-success {
+    width: 19rem;
+}

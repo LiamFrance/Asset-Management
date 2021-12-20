@@ -1,0 +1,328 @@
+.dropbtn {
+  background-color: #cf2338;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  display: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 20rem;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  z-index: 9999999;
+}
+
+.dropdown-content a {
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+}
+
+.dropdown-content a:hover {
+  background-color: #cf2338;
+  color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #cf2338;
+}
+
+/* user icon */
+
+.user-icon {
+  background-color: #cf2338;
+  padding: 1rem;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.user-box {
+  position: relative;
+  display: inline-block;
+}
+
+.user-content {
+  display: none;
+  position: absolute;
+  right: 10%;
+  background-color: #ffffff;
+  min-width: 20rem;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  z-index: 9999999;
+}
+
+.user-content a {
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+}
+
+.user-content a:hover {
+  background-color: #cf2338;
+  color: #fff;
+}
+
+.user-box:hover .user-content {
+  display: block;
+}
+
+.user-box:hover .user-icon {
+  background-color: #cf2338;
+}
+
+/* edit o day nay */
+/*  */
+.Modal__disable-user .ant-modal-content,
+.Modal__Detail-asm .ant-modal-content,
+.Modal__logout .ant-modal-content {
+  margin-top: 20rem;
+  width: 83%;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  background-color: #fafcfc;
+}
+
+.Modal__logout--short .ant-modal-content {
+  width: 60%;
+}
+
+.Modal__disable-user .ant-modal-header,
+.Modal__Detail-asm .ant-modal-header,
+.Modal__logout .ant-modal-header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #000;
+  border-radius: 1rem 1rem 0 0;
+  padding: 2rem 8rem;
+  background-color: #eff1f5;
+}
+
+.Modal__disable-user .ant-modal-title,
+.Modal__Detail-asm .ant-modal-title,
+.Modal__logout .ant-modal-title {
+  color: #cf2338;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-left: -3.1rem;
+}
+
+.Modal__Detail-asm .anticon {
+  color: red;
+}
+
+.ant-modal-title .ant-modal-body,
+.Modal__logout .ant-modal-body {
+  padding: 0;
+}
+
+.Modal__disable-user .ant-modal-body {
+  padding: 10px 50px;
+}
+
+.Modal__logout .ant-modal-footer {
+  border: none;
+  padding: 10px 50px;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.Modal__disable-user .ant-modal-footer {
+  border: none;
+  padding: 0 38px 20px;
+  text-align: left;
+}
+
+.Modal__disable-user .ant-btn,
+.Modal__logout .ant-btn {
+  border: none;
+  color: white;
+  margin-left: 1rem;
+}
+
+.Modal__disable-user .ant-btn:hover,
+.Modal__logout .ant-btn:hover {
+  background-color: #af2536;
+  color: #fff;
+}
+
+.Modal__disable-user .ant-btn:focus,
+.Modal__logout .ant-btn:focus {
+  background-color: #af2536;
+  color: #fff;
+}
+
+.Modal__disable-user button.Modal__logout__btn-cancel,
+.Modal__logout button.Modal__logout__btn-cancel {
+  border: 1px solid #a1a3a3;
+  background-color: #fafcfc;
+  color: #000;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.Modal__disable-user button.Modal__logout__btn-cancel:hover,
+.Modal__logout button.Modal__logout__btn-cancel:hover {
+  background-color: #eff1f5;
+  color: #000;
+}
+
+/* end edit o day nay */
+.Modal__logout button.Modal__logout__btn-cancel:focus {
+  background-color: #eff1f5;
+  color: #000;
+}
+
+.Modal__logout button.Modal__btn-cancel {
+  border: 1px solid #a1a3a3;
+  background-color: #fafcfc;
+  color: #000;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.Modal__logout button.Modal__btn-cancel,
+button.Modal__btn-save {
+  float: right;
+  transform: translateY(-2rem);
+  margin-top: 3.5rem;
+}
+
+.Modal__logout button.Modal__btn-cancel:hover {
+  background-color: #eff1f5;
+  color: #000;
+}
+
+.Modal__logout button.Modal__btn-cancel:focus {
+  background-color: #eff1f5;
+  color: #000;
+}
+
+.repassword__content-logout {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.repassword__input-old {
+  /* margin-bottom: 2rem; */
+}
+
+.Modal__success .ant-modal-footer {
+  border: none;
+  height: 7rem;
+}
+
+.Modal__success .ant-modal-content {
+  margin-top: 20rem;
+  width: 83%;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  background-color: #fafcfc;
+}
+
+.Modal__success .ant-modal-header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #000;
+  border-radius: 1rem 1rem 0 0;
+  padding: 2rem 5rem;
+  background-color: #eff1f5;
+}
+
+.Modal__success .ant-modal-title {
+  color: #cf2338;
+  font-weight: 600;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.Modal__success .ant-modal-body {
+  padding: 0;
+  margin-right: 15px;
+}
+
+.div_left {
+  float: left;
+
+  text-align: center;
+}
+
+.div_right {
+  float: left;
+
+  text-align: center;
+}
+
+.header-title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 2rem;
+}
+
+/* edit ne */
+.Modal__logout--changePW .repassword__content .repassword__input .ant-row {
+  align-items: baseline;
+}
+
+.Modal__logout--changePW .repassword__content {
+  height: auto;
+}
+
+.Modal__logout--changePW
+  .repassword__content
+  .repassword__input
+  .ant-form-item-explain {
+  width: 20rem;
+  font-size: 1.2rem;
+  margin-left: 39px;
+  color: #fd4d4f;
+}
+
+.Modal__logout--changePW
+  .repassword__content
+  .repassword__input
+  .repassword__input--NewPW
+  .ant-form-item-explain {
+  margin-left: 69px;
+  color: #fd4d4f;
+}
+
+.Modal__logout--changePW .repassword__content .ant-form-item-label {
+  margin-top: 10px;
+}
+
+.Modal__logout--changePW
+  .repassword__content
+  .repassword__input
+  .repassword__input--OldPW
+  .ant-form-item-explain {
+  margin-left: 75px;
+  color: #fd4d4f;
+}
+
+.Modal__logout--short .ant-modal-title {
+  margin-left: -0.7rem;
+}
+.Modal__logout .ant-btn {
+  background-color: #e72b47;
+}
+
+.Modal__logout .ant-btn[disabled] {
+  background-color: #777777;
+}

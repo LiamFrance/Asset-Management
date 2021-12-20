@@ -1,0 +1,43 @@
+/*!* css for content_box_left *!*/
+/*.logo__image{*/
+/*  width: 40%;*/
+/*}*/
+/*.logo__title{*/
+/*  font-size: 2.5rem;*/
+/*  font-weight: 600;*/
+/*  color: #CF2338;*/
+/*}*/
+/*.content__box--left{*/
+/*  width: 30rem;*/
+/*  height:auto;*/
+/*  !* background: red; *!*/
+/*  font-size: 1.6rem;*/
+/*}*/
+/*.content__box--left__menu{*/
+/*  margin-top: 3rem;*/
+/*}*/
+/*.menu__box{*/
+/*  padding: 1rem;*/
+/*}*/
+/*.menu__item{*/
+/*  padding: 2rem;*/
+/*  background: #EFF1F5;*/
+/*  color: #000;*/
+/*  font-weight: 600;*/
+/*  font-size: 2rem;*/
+/*  border-bottom: .1rem solid #fff;*/
+/*  transition: 0.5s;*/
+/*}*/
+/*.menu__item:hover {*/
+/*  background: #CF2338;*/
+/*  color: #fff;*/
+/*}*/
+/*.menu__item:hover a{*/
+/*  color: #fff;*/
+/*}*/
+/*.menu__item a{*/
+/*  color: #000;*/
+/*  transition: 0.5s;*/
+/*}*/
+
+/*!* end css for content_box_left *!*/

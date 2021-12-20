@@ -1,0 +1,26 @@
+.lable__box .ant-col-offset-8 {
+    margin-left: 8.333333%;
+}
+
+.lable__box .ant-col-8 {
+    max-width: 8.333333%;
+}
+
+/* .lable__box{
+  max-width: 8.333333%;
+} */
+.message {
+    margin: auto;
+    width: 50%;
+    background-color: #f7a8a8;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: red;
+    border-color: red;
+}

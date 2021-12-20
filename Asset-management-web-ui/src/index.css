@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100%;
+    font-size: 62.5%;
+    font-family: system-ui;
+}
+
+.wrapper {
+    /* độ rộng tối đa của design là 1440px */
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* ............................ */

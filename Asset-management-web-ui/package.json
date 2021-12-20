@@ -1,0 +1,57 @@
+{
+  "name": "asset-management-web-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.16.13",
+    "axios": "^0.24.0",
+    "env-cmd": "^10.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "file-saver": "^2.0.5",
+    "formik": "^2.2.9",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "reqwest": "^2.0.5",
+    "validator": "^13.7.0",
+    "web-vitals": "^1.1.2",
+    "xlsx-populate": "^1.21.0"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env.development react-scripts start",
+    "build": "env-cmd -f .env.production react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^11.2.7",
+    "jest-dom": "^4.0.0",
+    "react-test-render": "^1.1.2"
+  }
+}

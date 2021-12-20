@@ -1,0 +1,550 @@
+/*reset css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body_user {
+    width: 100%;
+    font-size: 50%;
+    font-family: system-ui;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* ............................ */
+
+/*user list*/
+.user__list__top,
+.report__list__top {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #cf2338;
+}
+
+.user__list__features {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+
+.report__list__features {
+    display: flex;
+    justify-content: end;
+    margin: 3rem 0;
+}
+
+.search__create__box {
+    display: flex;
+    gap: 10rem;
+}
+
+.search__box,
+.filter__box {
+    margin-top: 1rem;
+}
+
+.user__list__features--create,
+.report__list__features--export {
+    padding: 1.1rem;
+    color: #fff;
+    background: #cf2338;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.user__list__features--create:hover {
+    background: #aa2232;
+}
+
+/* css for header */
+.header__box {
+    width: 100%;
+    height: 6rem;
+    background: #cf2338;
+    padding: 0 1rem 0 1rem;
+    margin-bottom: 5rem;
+    font-size: 1.6rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* end css header */
+/* -------------------------------- */
+/* css for content__box */
+.content__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* css for content_box_left */
+.logo__image {
+    width: 40%;
+}
+
+.logo__title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #cf2338;
+}
+
+.content__box--left {
+    width: 30rem;
+    height: auto;
+    font-size: 1.6rem;
+}
+
+.content__box--left__menu {
+    margin-top: 3rem;
+}
+
+/* end css for content_box_left */
+/* ------------ */
+/* css for content_box_right */
+.content__box--right {
+    width: 120rem;
+    height: 50rem;
+    margin-top: 7rem;
+    margin-left: 50px;
+}
+
+.content__title {
+    padding-left: 250px;
+}
+
+.user__list__title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #cf2338;
+    margin-bottom: 7rem;
+}
+
+/* edit o day nay */
+.user__edit {
+    width: 63%;
+}
+
+/* edit o day nay */
+.user__create {
+    width: 63%;
+}
+
+.button_edit {
+    background-color: #cf2338;
+    margin-left: 270px;
+    margin-right: 35px;
+}
+
+.assignment__form__create {
+    width: 82%;
+}
+
+/* end css content_box_right */
+/* end css for content__box */
+
+/* css for menu*/
+.logo__image {
+    width: 40%;
+}
+
+.content__box--left__menu {
+    margin-top: 3rem;
+}
+
+.menu__box {
+    width: 100%;
+}
+
+.menu__item a {
+    background-color: #eee;
+    color: black;
+    font-weight: 600;
+    font-size: 2rem;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    transition: 0.5s;
+}
+
+.menu__item:hover a {
+    color: #fff;
+    background: #cf2338;
+}
+
+.menu__item a.active {
+    background: #cf2338;
+    color: #fff;
+}
+
+/* end css for content_box_left */
+
+.button__box {
+    float: right;
+    width: 40%;
+}
+
+/* responsive 1340*/
+@media only screen and (max-width: 1480px) {
+    .content__box--left {
+        display: none;
+    }
+
+    .dropbtn {
+        display: block;
+    }
+
+    .user__edit {
+        margin: auto;
+    }
+
+    .user__create {
+        margin: auto;
+    }
+
+    .user__list__title {
+        text-align: center;
+    }
+
+    .user__create .ant-row {
+        flex-flow: row;
+        align-items: flex-start;
+    }
+
+    .user__create .button__box {
+        float: right;
+    }
+
+    .assignment__form__create {
+        transform: translateX(25%);
+    }
+
+    .assignment__edit {
+        transform: translateX(25%);
+    }
+}
+
+@media only screen and (max-width: 1510px) {
+    .user__edit .ant-row,
+    .assignment__input.ant-row {
+        flex-flow: row;
+        align-items: flex-start;
+    }
+
+    .assignment__input .ant-form-item-label {
+        text-align: left;
+    }
+
+    .user__edit .button__box,
+    .assignment__edit .button__box-asm,
+    .assignment__form__create .button__box-asm {
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .user__edit .ant-row,
+    .assignment__input.ant-row {
+        flex-flow: column;
+        align-items: flex-start;
+    }
+
+    .user__edit .button__box,
+    .assignment__edit .button__box-asm,
+    .assignment__form__create .button__box-asm {
+        float: left;
+    }
+
+    .user__create .ant-row {
+        flex-flow: column;
+        align-items: flex-start;
+    }
+
+    .user__create .button__box {
+        float: left;
+    }
+}
+
+/* end responsive */
+.assignment__edit .button__box-asm {
+    margin-right: 55rem;
+}
+
+.assignment__edit .assignment__input .ant-form-item-control {
+    align-items: end;
+    margin-right: 15rem;
+}
+
+.user__edit
+#create-form
+.ant-form-item-control-input-content
+textarea.ant-input {
+    max-width: none;
+}
+
+.repassword__content {
+    padding: 1rem 3rem 1rem 5rem;
+}
+
+.repassword__desc {
+    line-height: 0.5rem;
+}
+
+.repassword__input {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.repassword__input .ant-form-item-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: -4rem;
+    margin-top: 7px;
+}
+
+.repassword__input .ant-form-item {
+    width: 100%;
+}
+
+.repassword__btn-cancel {
+    background-color: #fafcfc;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.Modal__style .ant-modal-content {
+    width: 83%;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    background-color: #fafcfc;
+}
+
+.Modal__style .ant-modal-header {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #000;
+    border-radius: 1rem 1rem 0 0;
+    padding: 2rem 5rem;
+    background-color: #eff1f5;
+}
+
+.Modal__style .ant-modal-title {
+    color: #cf2338;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.Modal__style .ant-modal-body {
+    min-height: 120px;
+    padding: 0;
+}
+
+.Modal__style .ant-modal-footer {
+    border: none;
+    padding: 0 78px 15px;
+}
+
+.Modal__style .ant-btn {
+    border: none;
+    border-radius: 1rem;
+    background-color: #cf2338;
+    color: white;
+    margin-left: 1rem;
+}
+.Modal__style .ant-btn[disabled] {
+    background-color: #777777;
+}
+.Modal__style .ant-btn:hover {
+    background-color: #af2536;
+    color: #fff;
+}
+
+.Modal__style .ant-btn:focus {
+    background-color: #af2536;
+    color: #fff;
+}
+
+.assignment__input .ant-form-item-control {
+    align-items: end;
+    margin-right: 3rem;
+}
+
+.button__box-asm {
+    float: right;
+    margin-right: 36rem;
+}
+
+.button__box-asm .button__box-asm-save {
+    margin-right: 2rem;
+    border-color: #cf2338;
+    background: #cf2338;
+}
+
+.button__box-asm .button__box-asm-save:hover {
+    border-color: #d13b4d;
+    background: #d13b4d;
+}
+
+.Search__box-asm span.ant-input-affix-wrapper {
+    width: 50%;
+    float: right;
+    border-radius: 10px;
+}
+
+.Search__box-asm
+> .ant-input-group
+span.ant-input-affix-wrapper:not(:last-child) {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.Search__box-asm
+> .ant-input-group
+> span.ant-input-group-addon:last-child
+.ant-input-search-button {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.Modal__header-asm {
+    padding: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.Modal__header-label {
+    width: 30%;
+    color: #cf2338;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.btn__box-modal {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ant-radio .ant-radio-inner::after {
+    background-color: #cf2338;
+}
+
+.ant-radio-wrapper:hover .ant-radio,
+.ant-radio:hover .ant-radio-inner,
+.ant-radio-input:focus + .ant-radio-inner {
+    border-color: #cf2338 !important;
+}
+
+.ant-radio-checked .ant-radio-inner {
+    border-color: #cf2338;
+}
+
+.edit__form .ant-form-item-label {
+    text-align: left;
+    max-width: 15.333333%;
+}
+
+.login__box {
+    width: 50%;
+    background: #ffffff;
+    box-shadow: 9px 9px 18px #e0e0e0, -9px -9px 18px #ffffff;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 3rem 5rem;
+    margin: auto;
+}
+
+.login__form .lable__box .ant-col-8 {
+    max-width: 26.333333%;
+}
+
+.login__form .lable__box .ant-col-9 {
+    max-width: 45.5%;
+}
+
+.login__box .login__form {
+    padding: 5rem 0 0rem 8rem;
+}
+
+.login__box .login__form .login__btn {
+    margin-right: 6rem;
+    border-radius: 5px;
+}
+
+.user__list__features--left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Modal__Detail-asm .ant-modal-body {
+    padding: 0 47px 8px;
+}
+.Modal__Detail-asm .ant-modal-title{
+    margin-left: -35px;
+}
+
+.asm-detail-row {
+    display: flex;
+    margin-bottom: 1rem;
+}
+li.menu__item {
+    width: 25rem;
+}
+.filter__box .ant-select:not(.ant-select-customize-input) .ant-select-selector,.filter__box .ant-picker{
+    border-radius: 5px;
+}
+.ant-input-group .ant-input {
+    border-radius: 5px;
+}
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child button.ant-input-search-button {
+    border-radius: 0 5px 5px 0;
+}
+.search__box .ant-input-search .ant-input-group .ant-input-affix-wrapper:not(:last-child),.ant-form-item-control-input-content  .ant-input-search .ant-input-group .ant-input-affix-wrapper:not(:last-child){
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.ant-form-item-control-input-content > input,.ant-form-item-control-input-content .ant-picker,.ant-form-item-control-input-content .ant-select:not(.ant-select-customize-input) .ant-select-selector,.ant-form-item-control-input-content textarea.ant-input ,.ant-form-item-control-input-content .ant-input-affix-wrapper{
+    border-radius: 5px;
+}
+.button__box-asm .ant-btn, .button__box .ant-btn{
+    border-radius: 5px;
+}
+.Modal__logout button.Modal__btn-cancel, button.Modal__btn-save {
+   border-radius: 5px;
+}
+.Modal__disable-user button.Modal__logout__btn-cancel, .Modal__logout button.Modal__logout__btn-cancel {
+    border-radius: 5px;
+}
+.Modal__logout .ant-btn {
+    border-radius: 5px;
+}
+.Modal__disable-user .ant-btn, .Modal__logout .ant-btn {
+    border-radius: 5px;
+}
+.report__list__features--export {
+    padding: 0.8rem 2rem;
+}
